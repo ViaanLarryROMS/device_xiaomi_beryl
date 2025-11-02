@@ -164,6 +164,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+# IMS
+$(call inherit-product, vendor/mediatek/ims/ims.mk)
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
