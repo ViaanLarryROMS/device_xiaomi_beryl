@@ -11,6 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+
+# Stuff
+TARGET_INCLUDE_VIPERFX := false
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := false
+TARGET_HAS_UDFPS := true
+
+
 # Inherit from beryl device
 $(call inherit-product, device/xiaomi/beryl/device.mk)
 
@@ -24,5 +32,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="missi-user 15 AP3A.240905.015.A2 OS2.0.207.0.VOQMIXM release-keys" \
-    BuildFingerprint=Redmi/citrine_global/citrine:14/SP1A.210812.016/OS2.0.207.0.VOQMIXM:user/release-keys
+    BuildFingerprint=Redmi/citrine_global/citrine:14/SP1A.210812.016/OS2.0.207.0.VOQMIXM:user/release-keys \
+    RisingChipset="MT6855" \
+    RisingMaintainer="Naoko Shoto"
 
