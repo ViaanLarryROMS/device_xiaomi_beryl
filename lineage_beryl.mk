@@ -14,6 +14,25 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from beryl device
 $(call inherit-product, device/xiaomi/beryl/device.mk)
 
+# Axion Stuff
+AXION_CAMERA_REAR_INFO := 108,8,2
+AXION_CAMERA_FRONT_INFO := 20
+AXION_PROCESSOR := MTK_Dimensity_7025U
+AXION_MAINTAINER := Naoko_Shoto
+TARGET_INCLUDES_LOS_PREBUILTS := false
+TARGET_INCLUDE_VIPERFX := false
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := false
+
+# Axion CPU Flags
+AXION_CPU_SMALL_CORES := 0,1,2,3
+AXION_CPU_BIG_CORES := 4,5,6,7
+
+# Axion finetuning
+BYPASS_CHARGE_SUPPORTED ?= false
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := sugov_ext
+
 PRODUCT_DEVICE := beryl
 PRODUCT_NAME := lineage_beryl
 PRODUCT_BRAND := Redmi

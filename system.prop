@@ -62,3 +62,17 @@ ro.iorapd.enable=false
 
 # async property set
 ro.property_service.async_persist_writes=true
+
+# Axion Props
+# Enable or disable ScrollOptimizer globally
+persist.sys.perf.scroll_opt=true
+# Heavy app handling mode
+# 0 - Disable heavy app classification
+# 1 - Enable dynamic detection (based on frame duration and buffer load)
+# 2 - Treat all apps as heavy for performance
+persist.sys.perf.scroll_opt.heavy_app=1
+# Add blurs to prop manually because Blur flags doesn't work at the moment
+ro.launcher.blur.appLaunch=0
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
