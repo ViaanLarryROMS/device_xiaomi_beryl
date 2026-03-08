@@ -13,3 +13,9 @@ bluetooth.profile.pan.nap.enabled=true
 bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
+# Infinity
+ro.product.marketname=Redmi Note 14 5G
+ro.infinity.soc=MediaTek Dimensity 7300 Ultra
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080x2400, 60Hz
+ro.infinity.camera=50MP + 8MP + 20MP
