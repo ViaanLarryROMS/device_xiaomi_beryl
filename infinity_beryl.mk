@@ -26,3 +26,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="missi-user 15 AP3A.240905.015.A2 OS2.0.207.0.VOQMIXM release-keys" \
     BuildFingerprint=Redmi/citrine_global/citrine:14/SP1A.210812.016/OS2.0.207.0.VOQMIXM:user/release-keys
 
+# Maintainer Name
+INFINITY_MAINTAINER := "Viaan"
+
+# Whether the device supports Fingerprint On Display
+TARGET_HAS_UDFPS := true
+
+# Whether Including Google Apps
+WITH_GAPPS := true
+
