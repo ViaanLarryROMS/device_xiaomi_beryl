@@ -18,7 +18,7 @@ TARGET_HAS_UDFPS := true
 $(call inherit-product, device/xiaomi/beryl/device.mk)
 
 PRODUCT_DEVICE := beryl
-PRODUCT_NAME := custon_beryl
+PRODUCT_NAME := infinity_beryl
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 14 5G
 PRODUCT_MANUFACTURER := Xiaomi
@@ -28,4 +28,14 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="missi-user 15 AP3A.240905.015.A2 OS2.0.207.0.VOQMIXM release-keys" \
     BuildFingerprint=Redmi/citrine_global/citrine:14/SP1A.210812.016/OS2.0.207.0.VOQMIXM:user/release-keys \
+
+
+# Maintainer Name
+INFINITY_MAINTAINER := "Viaan"
+
+# Whether the device supports Fingerprint On Display
+TARGET_HAS_UDFPS := true
+
+# Whether Including Google Apps
+WITH_GAPPS := true
 
