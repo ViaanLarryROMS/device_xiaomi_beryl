@@ -35,6 +35,13 @@ ro.sys.usb.charging.only=yes
 sys.ipo.pwrdncap=2
 sys.ipo.disable=1
 
+# Infinity
+ro.product.marketname=Redmi Note 14 5G
+ro.infinity.soc=MediaTek Dimensity 7300 Ultra
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080x2400, 60Hz
+ro.infinity.camera=50MP + 8MP + 20MP
+
 # Audio
 ro.audio.flinger_standbytime_ms=1000
 ro.audio.ihaladaptervendorextension_enabled=true
