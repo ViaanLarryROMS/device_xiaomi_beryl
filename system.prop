@@ -43,6 +43,13 @@ ro.audio.usb.period_us=16000
 ro.camera.sound.forced=0
 ro.vendor.audio.notification.single=true
 
+# Infinity
+ro.product.marketname=Redmi Note 14 5G
+ro.infinity.soc=MediaTek Dimensity 7300 Ultra
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080x2400, 60Hz
+ro.infinity.camera=50MP + 8MP + 20MP
+
 # Zygote
 ro.zygote.preload.enable=0
 
