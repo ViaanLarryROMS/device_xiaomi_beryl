@@ -9,13 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-
-# Stuff
-TARGET_INCLUDE_VIPERFX := false
-TARGET_ENABLE_BLUR := true
-PRODUCT_NO_CAMERA := false
 TARGET_HAS_UDFPS := true
 
 
